@@ -12,11 +12,13 @@ Flask, React 파일을 분리한다.
 flask-backend와 react-frontend로 분리했다.
 
 홈 디렉토리에서 아래 명령어를 실행
+
 >>> create-react-app react-frontend
 
 react-frontend 디렉토리에서 create-react-app을 한 것과 같다.
 
 react-frontend 디렉토리에서 아래 명령어를 실행
+
 >>> npm run eject 
 
  eject는 해당 프로젝트에 걸려서 숨겨져 있는 모든 설정을 밖으로 추출해주는 명령어
@@ -92,26 +94,26 @@ head 안에 아래 코드 추가
 .. code::
 
     function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>My Token = {window.token}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+        return (
+            <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <p>
+                Edit <code>src/App.js</code> and save to reload.
+                </p>
+                <p>My Token = {window.token}</p>
+                <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Learn React
+                </a>
+            </header>
+            </div>
+        );
+    }
 
 **빌드**
 ---------
