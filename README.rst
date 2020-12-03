@@ -5,6 +5,7 @@ FLASK AND REACT
 
 **개발환경 구성**
 --------------------
+
 node.js와 python, flask를 설치
 
 Flask, React 파일을 분리한다.
@@ -71,6 +72,7 @@ package.json파일을 아래와 같이 수정, homepage를 추가
 --------------------------
 
 **main.py**
+
 .. code::
 
     def main():
@@ -84,6 +86,7 @@ head 안에 아래 코드 추가
 >>> <script>window.token = "{{token}}"</script>
 
 **App.js**
+
 아래와 같이 token 추가
 
 .. code::
